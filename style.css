@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Outfit-Light';
+    src: url(./fonts/outfit/static/Outfit-Light.ttf);
+}
+
+body {
+    background-color: whitesmoke;
+    width: 1500px;
+}
+
+#all_up {
+    background: red;
+    background: url('./images/bg-pattern-top-desktop.svg') no-repeat, url('./images/bg-pattern-bottom-desktop.svg') hsl(60, 14%, 99%);
+    padding: 50px;
+    width: 910px;
+    height: 520px;
+    margin: auto;
+}
+
+#all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    font-family: 'Outfit-Light', sans-serif;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 369px;
+}
+
+h1,
+h5 {
+
+    color: hsl(300, 43%, 22%);
+}
+
+h1 {
+    font-size: 42px;
+
+}
+
+h1,
+p,
+h5,
+h4 {
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+.products_p {
+    color: hsl(303, 10%, 53%);
+}
+
+#block_etoile {
+    display: flex;
+    width: 296px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    column-gap: 10px;
+    border-radius: 10px;
+}
+
+#etoile {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#etoile div:nth-child(2) {
+    margin-left: 20px;
+}
+
+#etoile div:nth-child(3) {
+    margin-left: 40px;
+}
+
+#block1 {
+    display: flex;
+    column-gap: 184px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 50px;
+}
+
+.role_p,
+h4 {
+    color: hsl(300, 50%, 98%);
+    text-shadow: 0px 0px 1px hsl(0, 0%, 100%);
+}
+
+.nom p {
+    color: hsl(333, 80%, 67%);
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 10px;
+}
+
+.profile {
+    display: flex;
+    column-gap: 10px;
+}
+
+#role {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 250px;
+    height: 165px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#block2 {
+    display: flex;
+    column-gap: 20px;
+}
+
+#block2 div:nth-child(2) {
+    margin-top: 15px;
+}
+
+#block2 div:nth-child(3) {
+    margin-top: 30px;
+}
+
+#role div:nth-child(2) {
+    margin-top: 4px;
+}
+
+@media screen and (max-width:375px) {
+
+    body {
+        width: 400px;
+    }
+
+    #all_up {
+        width: 255px;
+        padding: 25px;
+        height: 1080px;
+        background: url('./images/bg-pattern-top-mobile.svg') no-repeat, url('./images/bg-pattern-bottom-mobile.svg') hsl(60, 14%, 99%);
+
+    }
+
+    #all {
+        width: 253px;
+
+    }
+
+    #products {
+        text-align: center;
+        width: 252px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #block_etoile {
+        display: flex;
+        width: 233px;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    #block1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0;
+    }
+
+    #etoile div:nth-child(2),
+    #etoile div:nth-child(3) {
+        margin: 0;
+    }
+
+    #block2 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    #block2 div:nth-child(2),
+    #block2 div:nth-child(3) {
+        margin: 0;
+    }
+
+    #role {
+        padding: 10px;
+        width: 233px;
+        height: 157px;
+    }
+
+    .role_p {
+        font-size: 14px;
+    }
+}
