@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Overview of site](./screenshot.jpg)
+![Overview of site](./screenshot.png)
 
 ### Links
 
